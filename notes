@@ -1,0 +1,20 @@
+pnpm dlx create-single-spa \
+  --moduleType root-config \
+  --orgName org \
+  --projectName root-config \
+  --packageManager pnpm \
+  --layout single-spa-layout \
+  --dir apps/root-config
+  ===> root created
+
+
+  pnpm dlx create-single-spa \
+    --moduleType app-parcel \
+    --framework react \
+    --orgName org \
+    --projectName app-react \
+    --packageManager pnpm \
+    --dir apps/react-app
+===>react
+
+run app 'pnpm start'
